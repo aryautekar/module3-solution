@@ -1,0 +1,82 @@
+/** HEADER **/
+nav#header-nav {
+    background-color: #a4d0bb;
+    min-height: 70px;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand h1 {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    color: firebrick;
+    margin: auto;
+    padding-left: 20px;
+}
+#nav-list a:hover {
+    background: #e7e7e7;
+}
+li.nav-item {
+    background-color: mediumaquamarine;
+}
+
+@media (min-width: 992px) {
+    #nav-list {
+    display: none;
+    }
+}
+
+/** END HEADER **/
+
+div#main-content {
+    background-color: #eaeaea;
+}
+p {
+    clear: both;
+    color: blanchedalmond;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 7px;
+    margin-bottom: 2px;
+    padding: 2px;
+    text-align: center;
+}
+h4.text-center {
+    color: #001c44;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: fantasy;
+    padding-top: 10px;
+}
+
+#box1 {
+    background-color: #79a1b0;
+    height: 1000px;
+    margin: 2px;
+    font-family: cursive;
+}
+
+/************** LARGE DEVICES ONLY**********/
+@media (min-width: 992px) and (max-width: 1400px) {
+    
+}  
+/************MEDUIM DEVICES ONLY ****************/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}  
+
+/************SMALL DEVICES ONLY ****************/
+@media (min-width: 576px) and (max-width: 767px) {
+    
+}
+/************EXTRA SMALL DEVICES ONLY ****************/
+
+
+@media (max-width: 240px) {
+    button.navbar-toggler {
+        padding: -0.25rem -0.75rem;
+    }
+    h1#title {
+        margin: -20px;
+        font-size: inherit;
+    }
+}
